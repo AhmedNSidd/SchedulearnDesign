@@ -110,11 +110,9 @@ body {
 
 .continue-btn {
   font-family: anson;
-  padding: 10px 40px;
+  padding: 7px 25px;
   display: inline-block;
   margin-top: 3%;
-
-  font-family: sans-serif;
   background-color: #E54F52;
   font-size: 130%;
     color: #F4F4F4;

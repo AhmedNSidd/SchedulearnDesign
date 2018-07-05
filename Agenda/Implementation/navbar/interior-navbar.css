@@ -1,0 +1,90 @@
+/*
+Navbar background color: #4A4A4A;
+Extended navbar bg color: #D14F52;
+13.5%
+*/
+
+@font-face {
+  font-family: avenir-next-medium;
+  src: url("AvenirNext-Medium.ttf");
+}
+
+@font-face {
+  font-family: avenir-next-regular;
+  src: url("AvenirNext-Regular.ttf");
+}
+
+html, body {
+  height: 100%;
+}
+
+nav {
+  background-color: #4A4A4A;
+}
+
+.navbar .navbar-brand {
+  font-size: 180%;
+  font-family: avenir-next-medium;
+  padding-top: 0.15%;
+  padding-bottom: 0.15%;
+  margin-right: 5%;
+}
+
+.navbar .collapse {
+  font-family: avenir-next-regular;
+}
+
+.mr-auto .nav-item {
+  font-size: 110%;
+  margin-right: 6%;
+}
+
+.ml-auto {
+  display: inline;
+}
+
+#profile-name {
+  float: left;
+}
+
+#pfp-container {
+  float: right;
+}
+
+#profile-picture {
+  width: 40px;
+  height: 40px;
+  background-image: url('div-left.jpg');
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#profile-picture:hover {
+  cursor: pointer;
+}
+
+#openNavigation {
+  margin-right: 2%;
+}
+
+.extended-navbar {
+  background-color: #D14F52;
+  box-shadow: 0 2px 7px 2px rgba(0,0,0,0.50);
+  font-family: BrandonGrotesque-Regular;
+  color: #F4F4F4;
+  padding: 0.7% 1.5%;
+}
+
+.extended-button {
+  font-size: 100%;
+  color: #F4F4F4;
+  margin-right: 2%;
+}
+
+.extended-button:hover {
+  color: #F4F4F4;
+}
+
+.dropdown-menu {
+  text-align: center;
+}

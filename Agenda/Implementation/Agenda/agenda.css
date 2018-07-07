@@ -13,6 +13,11 @@ Extended navbar bg color: #D14F52;
   src: url("CODE-Bold.otf");
 }
 
+@font-face {
+  font-family: avenir-next-regular;
+  src: url("AvenirNext-Regular.ttf");
+}
+
 html, body {
   height: 100%;
   background-color: #F4F4F4;
@@ -101,10 +106,21 @@ nav {
   text-align: center;
 }
 
+.main-pending {
+  text-align: center;
+}
+
 .group-title {
   font-size: 220%;
   font-family: adam-cg-pro;
-  margin: 4% auto;
+  margin: 2% auto;
+}
+
+.group-pending-title {
+  padding-top: 25px;
+  font-size: 220%;
+  font-family: adam-cg-pro;
+  margin: 32px auto;
 }
 
 .lesson {
@@ -119,6 +135,11 @@ nav {
   height: 80px;
 }
 
+.mainpending-information {
+  width: 100%;
+  display: inline-flex;
+  height: 80px;
+}
 .date {
   min-width: 80px;
   height: 100%;
@@ -130,8 +151,8 @@ nav {
 .date-day {
   font-size: 300%;
   margin-bottom: -25%;
+  margin-top: -11%;
   display: block;
-
 }
 
 .date-month {
@@ -146,22 +167,49 @@ nav {
 }
 
 .lesson-title {
-font-family: BebasNeueRegular;
-text-align: left;
+  padding-top: 0.5%;
+  font-family: BebasNeueRegular;
+  text-align: left;
+  font-size: 145%;
+  margin-bottom: 0;
 }
 
 .lesson-description {
   text-align: left;
-  font-family: AvenirNext-Medium;
+  font-family: avenir-next-regular;
+  font-weight: 100;
 }
 
 .extended-information {
-  display: inline-flex;
   width: 100%;
+  height: 30px;
   background-color: #4F4F4F;
+  text-align: left;
 }
 
-.location, .from, .tutor {
+.extended-field {
+  padding-left: 18px;
+  padding-top: 4px;
   color: white;
   margin-right: 30px;
+  font-family: adam-cg-pro;
+  font-weight: lighter;
+  font-size: 100%;
+  display: inline-block;
+}
+
+.extended-detail {
+  font-family: avenir-next-regular;
+}
+
+.signup-btn {
+  margin-top: 40px;
+  font-family: avenir-next-medium;
+  background-color: #E54F52;
+  font-size: 12px;
+  color: white;
+  padding: 5px 30px;
+  border: 1px solid #E54F52;
+  border-radius: 25px;
+  margin-bottom: 1%;
 }

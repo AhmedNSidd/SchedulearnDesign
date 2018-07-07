@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- END FontAwesome CDN -->
   <!-- My Styling and Script -->
-  <link rel="stylesheet" href="interior-navbar.css">
-  <script src="interior-navbar.js"></script>
+  <link rel="stylesheet" href="agenda.css">
+  <script src="agenda.js"></script>
   <!-- END My Styling and Script -->
 </head>
 <body>
@@ -33,7 +33,7 @@
           <a class="nav-link" href="#">AGENDA<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TUTORS</a>
+          <a class="nav-link" href="#">TUTURS</a>
         </li>
       </ul>
       <div class="navbar-nav ml-auto">
@@ -58,38 +58,47 @@
 
   <div class="main">
     <h2 class="group-title">SCHEDULED LESSONS</h2>
-    <div class="lesson"> <!-- all info about a single lesson-->
+    <div class="lesson">
       <div class="main-information">
         <div class="date">
           <span class="date-day">13</span>
           <span class="date-month">June</span>
-        </div> <!-- date div -->
+        </div>
         <div class="title-and-description">
           <h4 class="lesson-title">JAVA OBJECT ORIENTED PROGRAMMING</h4>
           <p class="lesson-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-        </div> <!-- title and description (this and date div need to be horiz aligned) -->
+        </div>
+      </div>
+
+
+      <div class="extended-information">
+        <div class="extended-field">LOCATION: <span class="extended-detail">ECS 2nd Floor Lab</span></div>
+        <div class="extended-field">FROM: <span class="extended-detail">2:00 PM - 4:00 PM</span></div>
+        <div class="extended-field">TUTOR: <span class="extended-detail">Ahm Sidder</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="main-pending">
+    <h2 class="group-pending-title">PENDING LESSONS</h2>
+    <div class="lesson">
+      <div class="main-information">
+        <div class="date">
+          <span class="date-day">17</span>
+          <span class="date-month">June</span>
+        </div>
+        <div class="title-and-description">
+          <h4 class="lesson-title">VIOLIN</h4>
+          <p class="lesson-description">Elaine blath, Feainnewedd, Dearme aen a'caelme tedd, Eigean evelienn deireadh, Que'n esse, va en esseath, Feainnewedd, elaine blath</p>
+        </div>
       </div>
 
       <div class="extended-information">
-        <div class="location"><b>LOCATION:</b> ECS 2nd floor</div> <!-- location div -->
-        <div class="from"><b>FROM:</b> 2:00 PM - 4:00 PM</div> <!-- from div -->
-        <div class="tutor"><b>TUTOR:</b> Ahm Sidder</div> <!-- tutor/student div -->
-      </div> <!-- location, time etc -->
-    </div>
-
-    <!-- <div class="lesson">
-      <div class="lesson-main-information">
-        <div class="lesson-date">
-          <p class="date-day">13</p>
-          <p class="date-month">June</p>
-        </div>
-        <div class="lesson-title-and-description">
-          <h4 class="lesson-title">Java Object Oriented Programming</h4>
-          <p class="lesson-description">This lesson I want to learn about what object orientated programming is. Why are classes called “blueprints” and what are objects
-and why are they described instances of classes?</p>
-        </div>
+        <div class="extended-field">LOCATION: <span class="extended-detail">ECS 7nd floor</span></div>
+        <div class="extended-field"><b>FROM:</b> <span class="extended-detail">2:00 PM - 4:00 PM</span></div>
+        <div class="extended-field"><b>TUTOR:</b> <span class="extended-detail">Ahmed Develapurkar</span></div>
+        <div class="extended-field"><a class="btn-sm signup-btn" href="#">Cancel</a></div>
       </div>
-    </div> -->
+    </div>
   </div>
 </body>
 </html>

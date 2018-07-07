@@ -71,6 +71,10 @@ nav {
   position: absolute;
 }
 
+.dropdown-menu {
+  text-align: center;
+}
+
 .extended-navbar {
   background-color: #D14F52;
   box-shadow: 0 2px 7px 2px rgba(0,0,0,0.50);
@@ -82,13 +86,13 @@ nav {
 .extended-button {
   font-size: 100%;
   color: #F4F4F4;
-  margin-right: 2%;
+  margin-right: 3%;
 }
 
 .extended-button:hover {
   color: #F4F4F4;
 }
 
-.dropdown-menu {
-  text-align: center;
+.extended-icon {
+  margin-right: 4px;
 }

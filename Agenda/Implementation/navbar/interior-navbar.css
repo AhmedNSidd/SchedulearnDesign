@@ -96,3 +96,14 @@ nav {
 .extended-icon {
   margin-right: 4px;
 }
+
+.alignRight {
+  top: 70px;
+  right: 10px;
+  background-color: #4F4F4F;
+}
+
+.alignRight a {
+  text-decoration: none !important;
+  color: white !important;
+}

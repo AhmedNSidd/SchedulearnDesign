@@ -207,3 +207,14 @@ nav {
   border-radius: 25px;
   margin-bottom: 1%;
 }
+
+.alignRight {
+  top: 70px;
+  right: 10px;
+  background-color: #4F4F4F;
+}
+
+.alignRight a {
+  text-decoration: none !important;
+  color: white !important;
+}

@@ -132,14 +132,9 @@ nav {
 .main-information {
   width: 100%;
   display: inline-flex;
-  height: 80px;
+  height: 100px;
 }
 
-.mainpending-information {
-  width: 100%;
-  display: inline-flex;
-  height: 80px;
-}
 .date {
   min-width: 80px;
   height: 100%;

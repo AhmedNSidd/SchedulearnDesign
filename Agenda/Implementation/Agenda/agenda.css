@@ -218,3 +218,20 @@ nav {
   text-decoration: none !important;
   color: white !important;
 }
+
+.alignLeft {
+  top: 70px;
+  left: 10px;
+  background-color: #4F4F4F;
+}
+
+.alignLeft a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+@media(min-width: 768px){
+  #pfp-container {
+    width: 200px !important;
+  }
+}

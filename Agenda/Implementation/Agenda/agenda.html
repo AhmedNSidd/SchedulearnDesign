@@ -46,14 +46,14 @@
     </div>
 
     <!-- Navbar Profile Icon: Visible in both desktop and mobile -->
-    <button class="bg-transparent border-0" id="openNavigation" type="button" data-toggle="collapse" data-target="#pfp-container" aria-controls="pfp-container" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="bg-transparent mr-0 border-0" id="openNavigation" type="button" data-toggle="collapse" data-target="#pfp-container" aria-controls="pfp-container" aria-expanded="false" aria-label="Toggle navigation">
       <div id="profile-picture"></div>
     </button>
 
   </nav> <!-- PRIMARY NAVBAR CODE DOESN'T END HERE! -->
 
   <!-- Navbar Menu: Collapsible menu only visible in mobile version -->
-  <div class="collapse navbar-collapse w-50 alignLeft p-3 position-fixed rounded" id="navbarContent">
+  <div class="collapse navbar-collapse w-25 align-left p-3 position-fixed rounded" id="navbarContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">AGENDA<span class="sr-only">(current)</span></a>
@@ -65,7 +65,7 @@
   </div>
 
   <!-- Navbar Profile Icon Menu: Shows up in desktop and mobile versions on clicking the profile pic -->
-  <div class="collapse navbar-collapse w-50 alignRight p-3 position-fixed rounded" id="pfp-container">
+  <div class="collapse navbar-collapse w-50 align-right p-3 position-fixed rounded" id="pfp-container">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active" id="profile-name">
           <a class="nav-link" href="{% url 'profile' %}">Your Profile</a>
